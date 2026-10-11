@@ -1,198 +1,193 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Vitta Fisio | Fisioterapia & Bem-estar</title>
-    <meta
-      name="description"
-      content="Demonstração de site profissional para clínica de fisioterapia."
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!--
-      O CSS deste site fica em css/style.css.
-      O bloco abaixo foi removido para separar estrutura e aparência.
-    -->
-    
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="wrap navin">
-        <a class="brand" href="#">Vitta<span>Fisio</span></a>
-        <div class="links">
-          <a href="#servicos">Serviços</a><a href="#sobre">Sobre</a
-          ><a href="#depoimentos">Depoimentos</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#203e36" />
+  <meta name="description" content="VittaFisio — demonstração de site para fisioterapia, reabilitação e bem-estar. Conheça os serviços e como funciona o atendimento personalizado." />
+  <meta property="og:title" content="VittaFisio | Movimento com cuidado" />
+  <meta property="og:description" content="Uma experiência de fisioterapia pensada para acolher, cuidar e devolver confiança ao movimento." />
+  <title>VittaFisio | Movimento com cuidado</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#servicos">Ir para os tratamentos</a>
+  <header class="site-header" id="topo">
+    <div class="shell nav-inner">
+      <a class="brand" href="#inicio" aria-label="VittaFisio, página inicial">
+        <span class="brand-symbol" aria-hidden="true"><span></span><span></span></span>
+        <span class="brand-text">vitta<span>fisio.</span><small>FISIOTERAPIA & MOVIMENTO</small></span>
+      </a>
+      <nav class="nav-links" id="main-navigation" aria-label="Navegação principal">
+        <a href="#servicos">Tratamentos</a>
+        <a href="#sobre">Nossa abordagem</a>
+        <a href="#depoimentos">Como funciona</a>
+        <a class="nav-mobile-cta" href="#contato">Agendar avaliação ↗</a>
+      </nav>
+      <a class="btn btn-dark header-cta" href="#contato">Agendar avaliação <span aria-hidden="true">↗</span></a>
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-controls="main-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="micro hero-kicker"><span class="bullet"></span> CUIDADO QUE ACOMPANHA VOCÊ <span class="kicker-id">/ 01 — 04</span></p>
+          <h1 id="hero-title">Volte a sentir a <em>liberdade</em> de se mover.</h1>
+          <p class="hero-description">Fisioterapia, reabilitação e movimento consciente em uma experiência de cuidado individualizado, do primeiro encontro a cada nova conquista.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark btn-lg" href="#contato">Quero agendar uma avaliação <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#servicos">Conheça nossos cuidados <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="small-line"></span> ATENÇÃO AO CORPO. RESPEITO AO SEU TEMPO.</div>
         </div>
-        <a class="btn" href="#contato">Agendar avaliação</a>
+        <div class="hero-art">
+          <div class="hero-image-wrap">
+            <img src="./assets/images/pexels-20860579.jpg" alt="Fisioterapeuta auxiliando pessoa durante mobilização da perna" fetchpriority="high" />
+            <span class="photo-watermark">V / F</span>
+            <span class="image-caption">MOVIMENTO COM INTENÇÃO <span>01 / TRATAMENTO</span></span>
+          </div>
+          <div class="hero-orbit" aria-hidden="true"><span>VITTAFISIO ✦ CUIDAR DO SEU MOVIMENTO ✦ </span></div>
+          <div class="hero-sticker" aria-hidden="true"><span>movimento</span><strong>é vida.</strong><span class="sticker-arrow">↗</span></div>
+        </div>
       </div>
-    </nav>
-    <header class="hero">
-      <div class="wrap grid">
-        <div>
-          <span class="tag">Fisioterapia • Movimento • Bem-estar</span>
-          <h1>Seu corpo merece cuidado em cada movimento.</h1>
-          <p>
-            Atendimento humanizado e individualizado para aliviar dores,
-            recuperar movimentos e devolver segurança para sua rotina.
-          </p>
-          <div class="actions">
-            <a class="btn" href="#contato">Agendar pelo WhatsApp</a
-            ><a class="btn alt" href="#servicos">Conhecer tratamentos</a>
-          </div>
+      <div class="shell hero-foot"><span>UM NOVO OLHAR PARA O SEU BEM-ESTAR</span><a href="#servicos">DESLIZE PARA CONHECER <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>MOVIMENTO</span><i>✳</i><span>CUIDADO</span><i>✳</i><span>CONFIANÇA</span><i>✳</i><span>QUALIDADE DE VIDA</span><i>✳</i><span>MOVIMENTO</span><i>✳</i><span>CUIDADO</span><i>✳</i><span>CONFIANÇA</span><i>✳</i><span>QUALIDADE DE VIDA</span><i>✳</i></div></div>
+    <section class="section services" id="servicos" aria-labelledby="services-title">
+      <div class="shell">
+        <div class="section-intro reveal">
+          <p class="micro section-count">01 / TRATAMENTOS</p>
+          <h2 id="services-title">Cada corpo tem uma história. <em>Cada cuidado, um caminho.</em></h2>
+          <p>Uma apresentação dos cuidados que uma clínica pode oferecer, sempre com atenção às necessidades e ao ritmo de cada pessoa.</p>
         </div>
-        <div class="visual">
-          <div class="figure"></div>
-          <div class="cardfloat cf1">
-            <strong>✦ Atendimento personalizado</strong
-            ><small style="display: block; color: var(--muted)"
-              >Um plano pensado para cada paciente.</small
-            >
-          </div>
-          <div class="cardfloat cf2">
-            <strong>Mais qualidade de vida</strong
-            ><small style="display: block; color: var(--muted)"
-              >Recupere mobilidade, confiança e bem-estar.</small
-            >
-          </div>
-        </div>
-      </div>
-    </header>
-    <section class="section white" id="servicos">
-      <div class="wrap">
-        <span class="eyebrow">Como podemos ajudar</span>
-        <h2>Cuidado completo para você se sentir melhor.</h2>
-        <p class="lead">
-          Tratamentos apresentados de forma simples para que o paciente entenda
-          rapidamente como a clínica pode ajudá-lo.
-        </p>
-        <div class="cards">
-          <article class="service">
-            <span>01</span>
+        <div class="services-grid">
+          <a class="service-card reveal" href="#contato" data-service="Fisioterapia">
+            <div class="service-card-top"><span>01 / 04</span><span class="card-arrow">↗</span></div>
+            <div class="service-sign" aria-hidden="true">✳</div>
             <h3>Fisioterapia</h3>
-            <p>
-              Avaliação individual e tratamento direcionado para dores, lesões e
-              limitações de movimento.
-            </p>
-          </article>
-          <article class="service">
-            <span>02</span>
+            <p>Abordagem individual para dores, lesões e desafios relacionados à mobilidade.</p>
+            <span class="service-foot">SAIBA COMO COMEÇAR <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="service-card reveal" href="#contato" data-service="Pós-operatório">
+            <div class="service-card-top"><span>02 / 04</span><span class="card-arrow">↗</span></div>
+            <div class="service-sign service-sign-circle" aria-hidden="true">◎</div>
             <h3>Pós-operatório</h3>
-            <p>
-              Acompanhamento para uma recuperação segura, progressiva e adaptada
-              a cada fase.
-            </p>
-          </article>
-          <article class="service">
-            <span>03</span>
+            <p>Acompanhamento orientado ao processo de recuperação e retorno progressivo às atividades.</p>
+            <span class="service-foot">SAIBA COMO COMEÇAR <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="service-card reveal" href="#contato" data-service="Pilates">
+            <div class="service-card-top"><span>03 / 04</span><span class="card-arrow">↗</span></div>
+            <div class="service-sign" aria-hidden="true">∞</div>
             <h3>Pilates</h3>
-            <p>
-              Movimento orientado para desenvolver força, mobilidade, equilíbrio
-              e consciência corporal.
-            </p>
-          </article>
-          <article class="service">
-            <span>04</span>
+            <p>Movimento com atenção à força, equilíbrio, postura e percepção corporal.</p>
+            <span class="service-foot">SAIBA COMO COMEÇAR <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="service-card reveal" href="#contato" data-service="Drenagem">
+            <div class="service-card-top"><span>04 / 04</span><span class="card-arrow">↗</span></div>
+            <div class="service-sign" aria-hidden="true">〰</div>
             <h3>Drenagem</h3>
-            <p>
-              Técnicas manuais voltadas ao conforto, redução de inchaço e
-              suporte ao bem-estar.
-            </p>
-          </article>
+            <p>Técnicas manuais voltadas ao cuidado, conforto e bem-estar do corpo.</p>
+            <span class="service-foot">SAIBA COMO COMEÇAR <span aria-hidden="true">↗</span></span>
+          </a>
         </div>
       </div>
     </section>
-    <section class="section" id="sobre">
-      <div class="wrap split">
-        <div class="photo"></div>
-        <div>
-          <span class="eyebrow">Atendimento humanizado</span>
-          <h2>Mais que tratar sintomas: cuidar de pessoas.</h2>
-          <p class="lead">
-            Cada pessoa possui uma história e necessidades diferentes. Por isso,
-            o atendimento começa com uma avaliação cuidadosa e segue com um
-            plano individualizado.
-          </p>
-          <div class="checks">
-            <div class="check">
-              <span class="tick">✓</span>
-              <div>
-                <strong>Avaliação individual</strong><br /><small
-                  >Entendimento das necessidades de cada paciente.</small
-                >
-              </div>
-            </div>
-            <div class="check">
-              <span class="tick">✓</span>
-              <div>
-                <strong>Acompanhamento próximo</strong><br /><small
-                  >Evolução acompanhada durante o tratamento.</small
-                >
-              </div>
-            </div>
-            <div class="check">
-              <span class="tick">✓</span>
-              <div>
-                <strong>Ambiente acolhedor</strong><br /><small
-                  >Conforto e tranquilidade durante os atendimentos.</small
-                >
-              </div>
-            </div>
+    <section class="editorial-banner" aria-label="Nossa filosofia de cuidado">
+      <div class="banner-image"><img src="./assets/images/pexels-8769166.jpg" alt="Pessoas praticando Pilates em estúdio amplo e iluminado" loading="lazy" /></div>
+      <div class="banner-shade"></div>
+      <div class="shell banner-content reveal">
+        <span class="micro">MOVIMENTO É MAIS DO QUE EXERCÍCIO</span>
+        <p>O cuidado começa quando a gente <em>escuta.</em></p>
+        <a href="#sobre">CONHEÇA NOSSA ABORDAGEM <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="banner-index">V / 02 — MOVIMENTO</span>
+    </section>
+    <section class="section about" id="sobre" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div class="about-photo reveal">
+          <img src="./assets/images/pexels-14254048.jpg" alt="Profissional auxiliando mobilização e alongamento durante atendimento terapêutico" loading="lazy" />
+          <div class="about-photo-tag"><span>ACOLHIMENTO</span><strong>01 / CADA PESSOA É ÚNICA.</strong></div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="micro">02 / NOSSA ABORDAGEM</p>
+          <h2 id="about-title">Cuidar vai muito além de <em>tratar sintomas.</em></h2>
+          <p class="about-lead">É criar espaço para ouvir, entender e construir caminhos para uma vida com mais autonomia e confiança.</p>
+          <div class="about-principles">
+            <div><span>01</span><div><strong>Escuta individual</strong><p>Cada jornada começa com o entendimento da história e das necessidades de quem chega.</p></div></div>
+            <div><span>02</span><div><strong>Acompanhamento próximo</strong><p>Orientações e ajustes pensados para cada fase da evolução.</p></div></div>
+            <div><span>03</span><div><strong>Movimento com propósito</strong><p>Uma experiência de cuidado que valoriza o cotidiano e a qualidade de vida.</p></div></div>
           </div>
-          <a class="btn" href="#contato">Quero agendar uma avaliação</a>
+          <a class="text-link strong-link" href="#contato">Vamos começar sua jornada <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
-    <section class="section white" id="depoimentos">
-      <div class="wrap">
-        <span class="eyebrow">Experiência dos pacientes</span>
-        <h2>Cuidado que faz diferença.</h2>
-        <div class="quotes">
-          <div class="quote">
-            ★★★★★
-            <p>“Atendimento muito atencioso e profissional.”</p>
-            <strong>Paciente • demonstração</strong>
-          </div>
-          <div class="quote">
-            ★★★★★
-            <p>“O acompanhamento fez toda diferença na minha recuperação.”</p>
-            <strong>Paciente • demonstração</strong>
-          </div>
-          <div class="quote">
-            ★★★★★
-            <p>“Ambiente agradável e explicações claras.”</p>
-            <strong>Paciente • demonstração</strong>
-          </div>
+    <section class="section journey" id="depoimentos" aria-labelledby="journey-title">
+      <div class="shell">
+        <div class="journey-top reveal">
+          <div><p class="micro">03 / COMO FUNCIONA</p><h2 id="journey-title">Um passo de cada vez. <em>Juntos.</em></h2></div>
+          <p>Da primeira conversa ao acompanhamento, uma jornada mais clara e acolhedora para quem busca cuidado.</p>
+        </div>
+        <div class="journey-steps">
+          <article class="reveal"><span class="step-id">01</span><div class="step-symbol">↗</div><h3>Primeiro contato</h3><p>Conte o que você precisa e tire suas primeiras dúvidas sobre o atendimento.</p></article>
+          <article class="reveal"><span class="step-id">02</span><div class="step-symbol">✳</div><h3>Avaliação</h3><p>Um momento de escuta e observação para entender necessidades e objetivos.</p></article>
+          <article class="reveal"><span class="step-id">03</span><div class="step-symbol">∞</div><h3>Seu plano de cuidado</h3><p>O acompanhamento é pensado de acordo com cada pessoa e suas possibilidades.</p></article>
+        </div>
+        <div class="journey-footer"><span>EXPERIÊNCIA ILUSTRATIVA • SITE DEMONSTRATIVO</span><a href="#contato">CONVERSAR SOBRE UMA AVALIAÇÃO ↗</a></div>
+      </div>
+    </section>
+    <section class="contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="contact-copy reveal">
+          <p class="micro">04 / SEU PRÓXIMO PASSO</p>
+          <h2 id="contact-title">Vamos cuidar do seu <em>movimento?</em></h2>
+          <p>Uma conversa é um bom começo. Prepare uma mensagem de agendamento para conhecer como a experiência funcionaria.</p>
+          <div class="contact-img"><img src="./assets/images/pexels-5793788.jpg" alt="Alongamento orientado, demonstrando atenção ao movimento e ao corpo" loading="lazy" /></div>
+        </div>
+        <div class="contact-form-panel reveal">
+          <div class="form-top"><span>AGENDAMENTO / DEMONSTRAÇÃO</span><span>01 — 03</span></div>
+          <form id="appointment-form">
+            <label for="patient-name">Como podemos chamar você?</label>
+            <input id="patient-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Seu nome" required />
+            <label for="appointment-service">Qual cuidado procura?</label>
+            <select id="appointment-service" name="service" required>
+              <option value="Fisioterapia">Fisioterapia</option>
+              <option value="Pós-operatório">Pós-operatório</option>
+              <option value="Pilates">Pilates</option>
+              <option value="Drenagem">Drenagem</option>
+              <option value="Orientação">Ainda não sei / quero orientação</option>
+            </select>
+            <label for="patient-notes">Quer compartilhar algum detalhe?</label>
+            <textarea id="patient-notes" name="notes" rows="3" maxlength="450" placeholder="Opcional: conte um pouco sobre o que procura."></textarea>
+            <button class="btn btn-dark submit-button" type="submit">Preparar mensagem <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="form-disclaimer">Este é um site demonstrativo. Nenhum contato é enviado ou armazenado. O WhatsApp comercial será configurado na versão final.</p>
         </div>
       </div>
     </section>
-    <section class="section" id="contato">
-      <div class="wrap">
-        <div class="cta">
-          <div>
-            <span class="eyebrow">Comece seu cuidado</span>
-            <h2>Pronto para voltar a se movimentar com confiança?</h2>
-            <p>
-              Fale diretamente com a clínica pelo WhatsApp e agende sua
-              avaliação.
-            </p>
-          </div>
-          <a
-            class="btn"
-            href="#"
-            id="whatsapp-demo"
-            >Falar no WhatsApp →</a
-          >
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="wrap foot">
-        <strong>VittaFisio • Site demonstrativo</strong
-        ><span>Fisioterapia & Bem-estar • Sua cidade</span>
-      </div>
-    </footer>
-    <div class="demo">DEMONSTRAÇÃO • conteúdo fictício</div>
-    <script src="./js/script.js"></script>
+  </main>
+  <footer class="footer">
+    <div class="shell footer-upper">
+      <a class="brand brand-footer" href="#inicio"><span class="brand-symbol" aria-hidden="true"><span></span><span></span></span><span class="brand-text">vitta<span>fisio.</span><small>FISIOTERAPIA & MOVIMENTO</small></span></a>
+      <p>Cuidar do movimento.<br/>Valorizar cada história.</p>
+      <a class="footer-top" href="#inicio">VOLTAR AO TOPO ↑</a>
+    </div>
+    <div class="shell footer-bottom"><span>© 2026 VITTAFISIO • MARCA ILUSTRATIVA</span><span>PROJETO DEMONSTRATIVO • FOTOS ILUSTRATIVAS</span></div>
+  </footer>
+  <dialog class="demo-dialog" id="message-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-heading"><span class="micro">VISUALIZAÇÃO DA MENSAGEM</span><button type="button" class="dialog-close" aria-label="Fechar">×</button></div>
+    <h2 id="dialog-title">Sua mensagem está pronta.</h2>
+    <p>Como esta é uma demonstração, não há número de WhatsApp cadastrado. Você pode copiar o texto abaixo.</p>
+    <textarea id="message-preview" rows="8" readonly aria-label="Texto da mensagem"></textarea>
+    <button type="button" class="btn btn-dark dialog-copy">Copiar mensagem <span aria-hidden="true">↗</span></button>
+    <p class="dialog-status" role="status" aria-live="polite"></p>
+  </dialog>
+  <script src="./js/script.js" defer></script>
 </body>
 </html>
